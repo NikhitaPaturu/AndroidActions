@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#80cef2"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/client_b"
+        android:text="Client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/buttoncolor"
+        />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:id="@+id/admin_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:background="@color/buttonbackground"
+        android:textColor="@color/buttoncolor"/>
+
+
+</LinearLayout>
