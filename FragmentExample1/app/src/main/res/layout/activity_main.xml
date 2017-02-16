@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0080ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment
+    android:id="@+id/fg1"
+    class="nnk.com.fragmentexample1.FragmentOne"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"/>
+
+    <fragment
+        android:id="@+id/fg2"
+        class="nnk.com.fragmentexample1.FragmentTwo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

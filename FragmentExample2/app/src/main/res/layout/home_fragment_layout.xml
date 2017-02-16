@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#005eff"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome To My Fragments"
+    android:textSize="20sp"
+    android:textColor="#FFF"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on Buttons"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFF"/>
+</LinearLayout>
